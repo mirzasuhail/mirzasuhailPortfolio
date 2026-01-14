@@ -4,7 +4,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
     title: "Trainee Intern",
     organisation: {
-      name: "AAviza Electronics (formely known as Kaynes Interconnect).",
+      name: "Aaviza Electronics (formely known as Kaynes Interconnect).",
       href: "https://aaviza.com/",
     },
     date: "Nov 2023 - May 2024",

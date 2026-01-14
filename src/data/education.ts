@@ -2,12 +2,12 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Technology",
+    title: "Bachelor Of Technology-(AIML)",
     organisation: {
       name: "Annamacharya Institute of Technology and Sciences (Autonomous).",
       href: "https://aits-tpt.edu.in/",
     },
-    date: "2014-Present",
+    date: "2024-Present",
     location: "Tirupati, Andhra Pradesh",
     description:
       "Pursuing a Bachelor's Degreee in the field of Computer Science and Engineering Specialized with Artificial Intelligence & Machine Learning (AI & ML).",
