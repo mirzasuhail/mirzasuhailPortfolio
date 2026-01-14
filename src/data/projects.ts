@@ -1,6 +1,4 @@
-import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -9,7 +7,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "#projects",
     tags: ["Python", "NumPy", "Cryptography", "Matplotlib"],
     image: {
-      LIGHT: "/images/projects/qkdLight.png",
+      LIGHT: "/images/projects/qkdDark.png",
       DARK: "/images/projects/qkdDark.png",
     },
   },
@@ -19,56 +17,38 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "#projects",
     tags: ["Flask", "Scikit-learn", "Pandas", "ML"],
     image: {
-      LIGHT: "/images/projects/kaizenLight.webp",
-      DARK: "/images/projects/kaizenDark.webp",
+      LIGHT: "/images/projects/kaizenLight.avif",
+      DARK: "/images/projects/kaizenLight.avif",
     },
   },
-];
-
-export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Quantum Key Distribution (QKD) Simulator",
-    favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/qkdDark.png"],
-    description:
-      "Developed a Python simulator demonstrating quantum-secure key exchange using the BB84 protocol. Utilized NumPy and Matplotlib for simulating quantum states and Cryptography libraries for secure key handling.",
-    sourceCodeHref: "https://github.com/mirzasuhail", 
-    liveWebsiteHref: "#",
+    index: 2,
+    title: "Student Database",
+    href: "#projects",
+    tags: ["Python", "SQL", "Database"],
+    image: {
+      LIGHT: "/images/projects/studentLight.jpg",
+      DARK: "/images/projects/studentLight.jpg",
+    },
   },
   {
-    name: "Kaizen AI - Decision Tree Visualization",
-    favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/kaizenLight.avif"],
-    description:
-      "Built a Flask-based web app integrating scikit-learn and Pandas to generate and visualize decision trees. Automated entropy and information gain calculations with a responsive UI for real-time ML education.",
-    sourceCodeHref: "https://github.com/mirzasuhail",
-    liveWebsiteHref: "#",
+    index: 3,
+    title: "Cable Harness",
+    href: "#projects",
+    tags: ["Industrial", "PCB", "Electronics"],
+    image: {
+      LIGHT: "/images/projects/cableLight.jpg",
+      DARK: "/images/projects/cableLight.jpg",
+    },
   },
   {
-    name: "Student Database Management System",
-    favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/studentLight.jpg"],
-    description:
-      "Designed a database application that digitizes student biodata, replacing traditional handwritten records. Implemented CRUD operations and data validation using Python and SQL for efficient academic data handling.",
-    sourceCodeHref: "https://github.com/mirzasuhail",
-    liveWebsiteHref: "#",
-  },
-  {
-    name: "Localization of Cable Harness",
-    favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/cableLight.jpg"],
-    description:
-      "Completed a six-month industrial training program at Aaviza Electronics. Gained exposure to production processes, PCB assembly, and quality control systems within ISO 9001 and AS9100-certified environments.",
-    sourceCodeHref: "#",
-    liveWebsiteHref: "#",
-  },
-  {
-    name: "My Portfolio",
-    favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/portfolioDark.png"],
-    description:
-      "A modern, responsive portfolio website built with Next.js, Tailwind CSS, and Framer Motion to showcase my AI/ML and Web Development skills.",
-    sourceCodeHref: "https://github.com/mirzasuhail/portfolio",
-    liveWebsiteHref: siteMetadata.siteUrl,
+    index: 4,
+    title: "My Portfolio",
+    href: "#projects",
+    tags: ["Next.js", "Tailwind", "Framer Motion"],
+    image: {
+      LIGHT: "/images/projects/portfolioDark.png",
+      DARK: "/images/projects/portfolioDark.png",
+    },
   },
 ];
