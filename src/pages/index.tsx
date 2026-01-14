@@ -1,5 +1,5 @@
-import { NextSeo } from "next-seo";
 import LandingHero from "@/components/landing-hero";
+import { NextSeo } from "next-seo";
 import SkillsShowcase from "@/components/skills/skills-showcase";
 import AboutHero from "@/components/about-hero";
 import ProjectCard from "@/components/projects/project-card";
