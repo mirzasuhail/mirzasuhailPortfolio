@@ -39,7 +39,7 @@ export default function LandingHero() {
                 Mohammad Mirza Suhail
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                AI/ML & MLOps Specialist
+                Web Developer & AI/ML
               </span>
 
               {/* Social Handles Section */}
